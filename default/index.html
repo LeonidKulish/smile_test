@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marvel:wght@400;700&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+<body text="">
+    <section class="main">
+        <header>
+            <div class="container">
+                <h6>Links and form element</h6> 
+            </div>
+        </header>  
+        <div class="content">
+            <div class="container">
+                <div class="contant_row">
+                    <div class="left_block">
+                        <div class="link">
+                            <a href="#" class="link-item">Default link</a>
+                            <a href="#" id="hiden" class="link-item">Hovered link</a>
+                            <a href="#" class="link-item">Active link</a>
+                            <a href="#" class="link-item">Visited link</a>
+                        </div>
+                        <div class="custom-select"> 
+                            <select>
+                                <option value="" disabled selected>No selected element</option>
+                                <option value="1">First item</option>
+                                <option value="2">Second item</option>
+                                <option value="3">Hovered item</option>
+                              </select>
+                        </div>  
+                    </div>
+                    <div class="right_block">
+                        <div class="checkbox_radio">
+                            <div class="checkbox">
+                                <input type="checkbox"  class="checkbox-item" id="Default" >
+                                <label for="Default">Default</label>
+
+                                <input type="checkbox" class="checkbox-item" id="Checked" checked>
+                                <label for="Checked">Checked</label>
+
+                                <input type="checkbox" class="checkbox-item" id="Disable" disabled >
+                                <label for="Disable">Disable</label>
+                            </div>
+                            <div class="radio">
+                                <input type="radio" name="radio" class="radio-item" id="Default_radio" >
+                                <label for="Default_radio">Default</label>
+
+                                <input type="radio" name="radio" class="radio-item" id="Checked_radio" checked>
+                                <label for="Checked_radio">Checked</label>
+
+                                <input type="radio" name="radio" class="radio-item" id="Disable_radio" disabled >
+                                <label for="Disable_radio">Disable</label>
+                            </div>
+                        </div>
+                        <div class="input">
+                            <ul>
+                                <li class="input-item"><input placeholder="Selected element"type="text"> <div><img class="cross" src="./img/2.png" alt=""></div> </li>
+                                <li class="input-item"><input placeholder="Input" type="text">  </li>
+                                <li class="input-item"><input placeholder="Input" value="Text example" type="text"></li>
+                            </ul>
+                        </div>
+                        <div class="buttons">
+                            <button class="buttons-item">send</button>
+                            <button class="buttons-item">send</button>
+                        </div>
+
+                    </div>
+            </div>
+            
+        </div>
+    </section>
+   
+    
+    <script src="/js/main.js"></script>
+</body>
+</html>
